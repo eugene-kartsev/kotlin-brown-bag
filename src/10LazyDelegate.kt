@@ -2,13 +2,16 @@
  * @author ykartsev
  */
 fun main(args: Array<String>) {
-    val ticks : Long by lazy {
+    val lazyTicks : Long by lazy {
         // heavy init function
+        println("initialized!")
         System.currentTimeMillis()
     }
 
-    println("Ticks: $ticks")
+    val ticks = System.currentTimeMillis()
     Thread.sleep(100)
+
     println("Ticks: $ticks")
+    println("Lazy ticks: $lazyTicks")
 }
 
