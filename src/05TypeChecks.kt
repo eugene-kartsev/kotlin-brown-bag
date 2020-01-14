@@ -1,7 +1,4 @@
-/**
- * @author ykartsev
- */
-fun main(args: Array<String>) {
+fun main() {
     println("Example 1: ${getResult(10)}")
     println("Example 2: ${getResult("abc")}")
     println("Example 3: ${getResult(1 until 10)}")

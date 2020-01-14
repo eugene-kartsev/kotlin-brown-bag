@@ -1,7 +1,4 @@
-/**
- * @author ykartsev
- */
-fun main(args: Array<String>) {
+fun main() {
     var client : Client? = null
     printEmail(client)
 

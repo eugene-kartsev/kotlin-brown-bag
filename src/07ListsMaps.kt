@@ -1,7 +1,4 @@
-/**
- * @author ykartsev
- */
-fun main(args: Array<String>) {
+fun main() {
     val list = listOf(1, 2, 3)
     val map = mapOf(
             1 to "One",

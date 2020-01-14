@@ -1,7 +1,4 @@
-/**
- * @author ykartsev
- */
-fun main(args: Array<String>) {
+fun main() {
     println("Example 1:")
     "Eugene".sayHi()
 

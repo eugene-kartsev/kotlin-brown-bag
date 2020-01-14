@@ -1,8 +1,4 @@
-/**
- * @author ykartsev
- */
-
-fun main(args: Array<String>) {
+fun main() {
     sayHi("Eugene")
 
     // The following line is not going to compile.

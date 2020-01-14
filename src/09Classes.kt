@@ -1,9 +1,4 @@
-/**
- * @author ykartsev
- */
-
-
-fun main(args: Array<String>) {
+fun main() {
     // the following line won't compile
     // because 'object' class is the same
     // as 'static' class in Java.

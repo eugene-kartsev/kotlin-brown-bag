@@ -1,7 +1,4 @@
-/**
- * @author ykartsev
- */
-fun main(args: Array<String>) {
+fun main() {
     val x = 13
     println("Example 1: ${example1(x)}")
     println("Example 2: ${example2(x)}")

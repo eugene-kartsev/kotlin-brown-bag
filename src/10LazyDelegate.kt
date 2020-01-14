@@ -1,7 +1,4 @@
-/**
- * @author ykartsev
- */
-fun main(args: Array<String>) {
+fun main() {
     val lazyTicks : Long by lazy {
         // heavy init function
         println("initialized!")

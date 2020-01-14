@@ -1,7 +1,4 @@
-/**
- * @author ykartsev
- */
-fun main(args: Array<String>) {
+fun main() {
     val aNumber = SimpleJavaNumber(10)
 
     println("Example 1:")
