@@ -16,6 +16,7 @@ fun main() {
     })
 
     // If "when" is used as a block - it doesn't have to cover all cases :(((
+    // However, if you add ".let {}" at the end - it'll enforce to cover all cases
     when (status) {
         is Success -> println("Delivery was successful. Result $status")
     }

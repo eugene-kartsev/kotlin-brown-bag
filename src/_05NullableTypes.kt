@@ -11,5 +11,5 @@ fun main() {
 
 fun sayHi(str: String) {
     println("Hey, $str")
-//    println("Hey, ${str ?: "noname"}")
+    // println("Hey, ${str ?: "noname"}")
 }

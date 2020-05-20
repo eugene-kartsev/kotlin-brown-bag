@@ -1,6 +1,5 @@
-/**
- * @author ykartsev
- */
+package types;
+
 public class SimpleJavaNumber {
     private int num;
 

@@ -5,10 +5,8 @@ fun main() {
         System.currentTimeMillis()
     }
 
-    val ticks = System.currentTimeMillis()
-    Thread.sleep(100)
-
-    println("Ticks: $ticks")
-    println("Lazy ticks: $lazyTicks")
+    repeat(10) {
+        println("Lazy ticks: $lazyTicks")
+    }
 }
 
