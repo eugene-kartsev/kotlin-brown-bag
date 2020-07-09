@@ -10,7 +10,7 @@ fun main() {
     // or assigned to a variable - it must be exhaustive.
     // DeliveryStatus is an algebraic data type
     println(when (status) {
-        is Success -> "Delivery was successful. Result: $status"
+        is Success -> "Delivery was successful. Result: ${status.response}"
         is Pending -> "Still Pending"
         is DeliveryFailed -> "Ooops. Something went wrong. Message: ${status.error.message}"
     })
@@ -30,7 +30,7 @@ private fun deliverAndFail(): DeliveryStatus {
     return DeliveryFailed(Exception(";("))
 }
 
-private sealed class DeliveryStatus {
+sealed class DeliveryStatus {
     object Pending: DeliveryStatus()
 
     data class Success(

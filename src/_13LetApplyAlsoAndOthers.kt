@@ -7,12 +7,14 @@ fun main() {
     println("Random String: $randomString")
 
     // 'let' changes the original object and returns a new object
-    val letResult = randomString.let { it.contains('A') }
+    val letResult = randomString.let {
+        it.contains('A')
+    }
     println("After 'let': $letResult")
 
     // 'also' doesn't change the original object
-    val alsoResult = randomString.also { item ->
-        val x = item + "_suffix"
+    val alsoResult = randomString.also {
+        val x = it + "_suffix"
         println("Inside 'also': $x")
     }
     println("After 'also': $alsoResult")
